@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Professional Tailoring Services" />
+   <meta name="keywords" content="Tailor, Custom Tailoring, Clothing Alterations, Dorzi" />
+   <meta name="author" content="Your Name" />
+   <title>Dorzi - Professional Tailoring</title>
+   <!--- FAVICON -->
+   <link rel="icon" type="image/x-icon" href="images/icons/favicon-dorzi.png">
+
+   <!--- TAILWIND WITH daisyUI -->
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- GOOGLE FONT -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <style>
+      /*-- Custom CSS --*/
+      .font-poppins {
+         font-family: "Poppins", sans-serif;
+      }
+   </style>
+</head>
+<body class="font-poppins">
+   <header class="my-0 mt-3 max-w-6xl mx-auto">
+      <!-- NAV-BAR -->
+      <nav>
+         <div class="navbar bg-base-100 pt-0">
+            <div class="navbar-center lg:navbar-start mr-auto">
+               <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden mt-2">
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-10 w-10"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                           stroke-width="2"
+                           d="M4 6h16M4 12h8m-8 6h16" />
+                     </svg>
+                  </div>
+                  <ul
+                     tabindex="0"
+                     class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-medium text-[#000000]">
+                     <li><a>Home</a></li>
+                     <li><a>Services</a></li>
+                     <li><a>About</a></li>
+                     <li><a>Contact</a></li>
+                     <li><a class="btn rounded-md hover:text-[#E76F51] bg-[#E76F51] text-white mt-2">Login</a></li>
+                     <li><a class="btn rounded-md hover:text-[#E76F51] bg-[#E76F51] text-white mt-2">Sign Up</a></li>
+                  </ul>
+               </div>
+               <a class="text-3xl lg:text-4xl font-bold text-[#000000]">Dorzi</a>
+            </div>
+            <div class="navbar-center hidden lg:flex mr-10">
+               <ul class="menu menu-horizontal px-1 font-medium text-[#000000]">
+                  <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Contact</a></li>
+               </ul>
+            </div>
+            <div class="navbar-end w-auto">
+               <a class="btn rounded-md hover:text-[#E76F51] px-6 lg:px-6 font-semibold text-lg lg:text-xl bg-[#E76F51] text-white mr-2">Login</a>
+               <a class="btn rounded-md hover:text-[#E76F51] px-6 lg:px-6 font-semibold text-lg lg:text-xl bg-[#E76F51] text-white">Sign Up</a>
+            </div>
+         </div>
+      </nav>
+
+      <!-- Slider -->
+      <div class="carousel w-full max-h-max lg:max-h-[550px] mt-10">
+         <div id="slide1" class="carousel-item relative w-full">
+            <!-- slide-1 Hero -->
+            <div class="hero bg-base-200 max-h-screen py-0 lg:py-10 p-0 lg:p-20">
+               <div class="hero-content flex-col lg:flex-row-reverse gap-[45px] lg:gap-[94px] w-[395px] lg:w-auto">
+                  <img src="media/slider/slider-1.jpg" class="max-w-[280px] lg:max-w-[480px]" />
+                  <div class="w-96">
+                     <h1 class="text-5xl font-bold">Custom Tailoring<br>with Precision</h1>
+                     <p class="py-6 w-96">We provide high-quality custom tailoring services to ensure your clothes fit perfectly and look stunning.</p>
+                     <div class="navbar-end w-auto">
+                        <a class="btn rounded-md hover:text-[#E76F51] px-6 lg:px-4 font-semibold text-lg lg:text-xl bg-[#E76F51] text-white">Get Started</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+               <a href="#slide4" class="btn btn-circle">❮</a>
+               <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+         </div>
+         <div id="slide2" class="carousel-item relative w-full">
+            <!-- slide-2 Hero -->
+            <div class="hero bg-base-200 max-h-screen py-10 lg:py-10 p-0 lg:p-20">
+               <div class="hero-content flex-col lg:flex-row-reverse gap-[60px] lg:gap-[20px] w-[395px] lg:w-auto">
+                  <img src="media/slider/slider-2.jpg" class="max-w-[280px] lg:max-w-[480px]" />
+                  <div>
+                     <h1 class="text-5xl font-bold">Clothing Alterations<br>with Care</h1>
+                     <p class="py-6 w-96">We alter your existing clothes to fit you perfectly, ensuring comfort and style.</p>
+                     <div class="navbar-end w-auto">
+                        <a class="btn rounded-md hover:text-[#E76F51] px-6 lg:px-4 font-semibold text-lg lg:text-xl bg-[#E76F51] text-white">Get Started</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+               <a href="#slide1" class="btn btn-circle">❮</a>
+               <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+         </div>
+         <div id="slide3" class="carousel-item relative w-full">
+            <!-- slide-3 Hero -->
+            <div class="hero bg-base-200 max-h-screen py-10 lg:py-10 p-0 lg:p-20">
+               <div class="hero-content flex-col lg:flex-row-reverse gap-[60px] lg:gap-[60px] w-[395px] lg:w-auto">
+                  <img src="media/slider/slider-3.jpg" class="max-w-[280px] lg:max-w-[480px]" />
+                  <div>
+                     <h1 class="text-5xl font-bold">Repairs & Redesign<br>with Expertise</h1>
+                     <p class="py-6 w-96">We repair and redesign your clothes to give them a new life, combining creativity and craftsmanship.</p>
+                     <div class="navbar-end w-auto">
+                        <a class="btn rounded-md hover:text-[#E76F51] px-6 lg:px-4 font-semibold text-lg lg:text-xl bg-[#E76F51] text-white">Get Started</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+               <a href="#slide2" class="btn btn-circle">❮</a>
+               <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+         </div>
+         <div id="slide4" class="carousel-item relative w-full">
+            <!-- slide-4 Hero -->
+            <div class="hero bg-base-200 max-h-screen py-10 lg:py-10 p-0 lg:p-20">
+               <div class="hero-content flex-col lg:flex-row-reverse gap-[60px] lg:gap-[20px] w-[395px] lg:w-auto">
+                  <img src="media/slider/slider-4.jpg" class="max-w-[280px] lg:max-w-[480px]" />
+                  <div>
+                     <h1 class="text-5xl font-bold">Bespoke Tailoring<br>with Elegance</h1>
+                     <p class="py-6 w-96">Experience the art of bespoke tailoring, where every stitch is crafted with precision and elegance.</p>
+                     <div class="navbar-end w-auto">
+                        <a class="btn rounded-md hover:text-[#E76F51] px-6 lg:px-4 font-semibold text-lg lg:text-xl bg-[#E76F51] text-white">Get Started</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+               <a href="#slide3" class="btn btn-circle">❮</a>
+               <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main class="max-w-6xl my-0 mx-auto">
+      <!-- Featured Services -->
+      <section class="my-32">
+         <h1 class="text-5xl font-semibold text-center text-[#0A0826]">Featured Services</h1>
+         <section class="flex flex-col lg:flex-row gap-14 lg:gap-0 justify-between mt-20 px-10">
+            <aside>
+               <img src="media/others/feature-1.jpg" alt="Custom Tailoring">
+            </aside>
+            <aside>
+               <img src="media/others/feature-2.jpg" alt="Clothing Alterations">
+            </aside>
+            <aside>
+               <img src="media/others/feature-3.jpg" alt="Repairs & Redesign">
+            </aside>
+         </section>
+      </section>
+
+      <!-- Latest News -->
+      <section class="my-32 mt-56 lg:mt-32">
+         <h1 class="text-5xl font-semibold text-center text-[#0A0826]">Latest News</h1>
+         <section class="flex flex-col lg:flex-row gap-10 lg:gap-5 justify-between mt-20 px-10">
+            <aside class="p-4 shadow-lg rounded-lg">
+               <img src="media/others/latest-1.jpg" alt="New Collection">
+               <h2 class="text-2xl font-semibold text-[#18191F] mt-8">New Collection Launch</h2>
+               <p class="text-[#6C6C6C] mt-3">Discover our latest collection of custom-tailored suits and dresses.</p>
+               <button class="btn btn-outline btn-error font-semibold text-base mt-8">Read More</button>
+            </aside>
+            <aside class="p-4 shadow-lg rounded-lg">
+               <img src="media/others/latest-2.jpg" alt="Tailoring Tips">
+               <h2 class="text-2xl font-semibold text-[#18191F] mt-8">Tailoring Tips & Tricks</h2>
+               <p class="text-[#6C6C6C] mt-3">Learn how to care for your custom-tailored clothes.</p>
+               <button class="btn btn-outline btn-error font-semibold text-base mt-8">Read More</button>
+            </aside>
+            <aside class="p-4 shadow-lg rounded-lg">
+               <img src="media/others/latest-3.jpg" alt="Seasonal Offers">
+               <h2 class="text-2xl font-semibold text-[#18191F] mt-8">Seasonal Offers</h2>
+               <p class="text-[#6C6C6C] mt-3">Avail exclusive discounts on our tailoring services this season.</p>
+               <button class="btn btn-outline btn-error font-semibold text-base mt-8">Read More</button>
+            </aside>
+         </section>
+      </section>
+
+       <!-- Happy Clients says -->
+       <section class="my-32 mt-56 lg:mt-32">
+        <h1 class="text-5xl font-semibold text-center text-[#000000]">Happy <span class="text-[#E76F51]">Clients says</span></h1>
+        <section class="flex flex-col lg:flex-row gap-10 lg:gap-5 justify-between mt-20 px-10">
+           <aside class="p-6 h-[470px] shadow-lg rounded-lg">
+              <img class="w-40 my-0 mx-auto" src="media/others/user-1.png" alt="">
+              <p class="text-[#6C6C6C] text-center mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="rating mt-4 flex justify-center">
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <p class="text-[#23A6F0] text-center mt-4">Alvert Tony</p>
+              <p class="text-[#0A0826] text-center mt-4">USA</p>
+           </aside>
+           <aside class="p-6 h-[470px] shadow-lg rounded-lg">
+              <img class="w-40 my-0 mx-auto" src="media/others/user-2.png" alt="">
+              <p class="text-[#6C6C6C] text-center mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="rating mt-4 flex justify-center">
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <p class="text-[#23A6F0] text-center mt-4 hover:underline">Regina Miles</p>
+              <p class="text-[#0A0826] text-center mt-4 hover:underline">Banker</p>
+           </aside>
+           <aside class="p-6 h-[470px] shadow-lg rounded-lg">
+              <img class="w-40 my-0 mx-auto" src="media/others/user-3.png" alt="">
+              <p class="text-[#6C6C6C] text-center mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="rating mt-4 flex justify-center">
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <p class="text-[#23A6F0] text-center mt-4 hover:underline">Kiya Tine</p>
+              <p class="text-[#0A0826] text-center mt-4 hover:underline">Africa</p>
+           </aside>
+        </section>
+     </section>
+    
+  </main>
+  <footer class="footer flex flex-col lg:flex-row justify-between bg-neutral text-neutral-content px-4 py-4 lg:px-40 lg:py-16 mt-32">
+     <aside class="mx-0 my-auto">
+        <nav class="grid grid-flow-col gap-4 text-[#D9DBE1]">
+           <a class="link link-hover">Download Now</a>
+           <a class="link link-hover">License</a>
+        </nav>
+        <nav class="grid grid-cols-3 lg:grid-flow-col gap-4 text-[#D9DBE1] mt-4">
+           <a class="link link-hover">About</a>
+           <a class="link link-hover">Features</a>
+           <a class="link link-hover">Pricing</a>
+           <a class="link link-hover">Help</a>
+           <a class="link link-hover">Privacy Policy</a>
+        </nav>
+        <p class="text-[#D9DBE1] mt-4">Copyright © 2020 clothes. All rights reserved</p>
+     </aside>
+     <nav>
+        <h6 class="footer-title text-xl font-medium">Get the App</h6>
+        <div class="flex flex-col gap-4">
+           <img class="w-44" src="media/others/android.png" alt="">
+           <img class="w-44" src="media/others/ios.png" alt="">
+        </div>
+     </nav>
+  </footer>
+</body>
+</html>
