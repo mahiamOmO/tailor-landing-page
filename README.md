@@ -59,7 +59,7 @@ Pricing plans and gallery display, helping customers make decisions visually and
 
 #### 🖼️ Footer
 ![Footer](./screenshort/footer.png)  
-Minimal and informative footer with social media links and contact details.
+Minimal and informative footer.
 ---
 
 
