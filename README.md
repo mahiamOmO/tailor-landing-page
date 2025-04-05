@@ -31,14 +31,36 @@ tailor-landing-page/ │ ├── index.html # Main page structure ├── st
 
 ### 🏠 Homepage Sections
 
-![Home Page 1](./screenshort/home_page%201.png)
-![Home Page 2](./screenshort/home_page%202.png)
-![Home Page 3](./screenshort/home_page%203.png)
-![Home Page 4](./screenshort/home_page%204.png)
+#### 🖼️ Home Page 1
+![Home Page 1](./screenshort/home_page%201.png)  
+The hero section with a bold call-to-action and welcoming layout for the tailor service.
 
-### 🔻 Footer
+---
 
-![Footer](./screenshort/footer.png)
+#### 🖼️ Home Page 2
+![Home Page 2](./screenshort/home_page%202.png)  
+Service highlight section showing what tailoring services are offered, presented in stylish DaisyUI cards.
+
+---
+
+#### 🖼️ Home Page 3
+![Home Page 3](./screenshort/home_page%203.png)  
+Showcase of customer testimonials and images in a clean, elegant format to build trust.
+
+---
+
+#### 🖼️ Home Page 4
+![Home Page 4](./screenshort/home_page%204.png)  
+Pricing plans and gallery display, helping customers make decisions visually and quickly.
+
+---
+
+### 🔻 Footer Section
+
+#### 🖼️ Footer
+![Footer](./screenshort/footer.png)  
+Minimal and informative footer with social media links and contact details.
+---
 
 
 ## 🧑‍💻 Author
