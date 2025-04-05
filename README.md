@@ -27,7 +27,19 @@ tailor-landing-page/ │ ├── index.html # Main page structure ├── st
 
 ## 🖼️ Screenshot
 
-![Screenshot](./screenshort/screenshot1.png)
+## 📸 Screenshots
+
+### 🏠 Homepage Sections
+
+![Home Page 1](./screenshort/home_page%201.png)
+![Home Page 2](./screenshort/home_page%202.png)
+![Home Page 3](./screenshort/home_page%203.png)
+![Home Page 4](./screenshort/home_page%204.png)
+
+### 🔻 Footer
+
+![Footer](./screenshort/footer.png)
+
 
 ## 🧑‍💻 Author
 
