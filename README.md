@@ -60,6 +60,7 @@ Pricing plans and gallery display, helping customers make decisions visually and
 #### 🖼️ Footer
 ![Footer](./screenshort/footer.png)  
 Minimal and informative footer.
+
 ---
 
 
