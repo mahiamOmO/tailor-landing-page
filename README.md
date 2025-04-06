@@ -25,8 +25,6 @@ A sleek, responsive landing page for a tailoring business, built using **Tailwin
 
 tailor-landing-page/ │ ├── index.html # Main page structure ├── style.css # Tailwind & DaisyUI styles (optional custom CSS) ├── media/ # Images and design assets └── screenshort/ # Project screenshots
 
-## 🖼️ Screenshot
-
 ## 📸 Screenshots
 
 ### 🏠 Homepage Sections
