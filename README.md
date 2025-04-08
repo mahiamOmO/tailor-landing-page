@@ -10,7 +10,7 @@ A sleek, responsive landing page for a tailoring business, built using **Tailwin
 
 - 🌬️ [Tailwind CSS](https://tailwindcss.com/)
 - 🌼 [DaisyUI](https://daisyui.com/)
-- 🌐 HTML5
+- 🌐 HTML
 
 ## 🚀 Features
 
