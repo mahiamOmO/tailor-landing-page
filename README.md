@@ -6,6 +6,12 @@ A sleek, responsive landing page for a tailoring business, built using **Tailwin
 
 👉 [View Website](https://mahiamomo.github.io/tailor-landing-page/)
 
+## 🎥 YouTube Video
+
+**Watch the gameplay demo:**
+
+[▶️ Watch on YouTube](https://youtu.be/eIMEgm38lL8)
+
 ## ⚙️ Built With
 
 - 🌬️ [Tailwind CSS](https://tailwindcss.com/)
